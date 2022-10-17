@@ -1,0 +1,43 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    border: 2px solid rgb(78, 14, 14);
+    box-shadow: 5px 5px 12px black;
+    background-color: rgb(124, 38, 38);
+    color: whitesmoke;
+    transition: .3s;
+}
+
+.main_container:hover{
+    transform: scale(1.05);
+}
+
+.id {
+    margin: 1em 0;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: block;
+}
+
+.tittle {
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.tittle:hover {
+    border-color: whitesmoke;
+}

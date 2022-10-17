@@ -1,0 +1,254 @@
+.main_container{
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    color: whitesmoke; 
+    vertical-align: top;
+    width: 100%;
+}
+
+.tittle {
+    font-size: 2em;
+    text-transform: capitalize;   
+    padding: 0.3em;
+    margin: 0.8em auto;
+    width: 300px;
+    display: block;
+}
+
+.pokemon_container h3 {
+    margin: 0.6 auto;
+    font-size: 1.2em;
+}
+
+.types_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: .5em;
+    
+}
+
+.types_container .type {
+    margin-right: .5em;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.data_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.data_container div{
+    margin: 1em 0;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.data_altura {
+    border-right: 1px solid rgb(124, 38, 38);
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 2px solid transparent;
+}
+
+.link span {
+  color: rgb(124, 38, 38);
+}
+
+.link:hover {
+  border-color: black;
+}
+
+
+
+
+.type_normal {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #aa9, 
+                 0 0 30px #aa9, 
+                 0 0 40px #aa9, 
+                 0 0 55px #aa9, 
+                 0 0 70px #aa9;
+  }
+  
+  .type_fire {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #f42, 
+                 0 0 30px #f42, 
+                 0 0 40px #f42, 
+                 0 0 55px #f42, 
+                 0 0 70px #f42;
+  }
+  
+  .type_water {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #39f, 
+                 0 0 30px #39f, 
+                 0 0 40px #39f, 
+                 0 0 55px #39f, 
+                 0 0 70px #39f;
+  }
+  
+  .type_eletric {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #fc3, 
+                 0 0 30px #fc3, 
+                 0 0 40px #fc3, 
+                 0 0 55px #fc3, 
+                 0 0 70px #fc3;
+  }
+  
+  .type_grass {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #7c5, 
+                 0 0 30px #7c5, 
+                 0 0 40px #7c5, 
+                 0 0 55px #7c5, 
+                 0 0 70px #7c5;
+  }
+  
+  .type_ice {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #6cf, 
+                 0 0 30px #6cf, 
+                 0 0 40px #6cf, 
+                 0 0 55px #6cf, 
+                 0 0 70px #6cf;
+  }
+  
+  .type_fighting {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #b54, 
+                 0 0 30px #b54, 
+                 0 0 40px #b54, 
+                 0 0 55px #b54, 
+                 0 0 70px #b54;
+  }
+  
+  .type_poison {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #a59, 
+                 0 0 30px #a59, 
+                 0 0 40px #a59, 
+                 0 0 55px #a59, 
+                 0 0 70px #a59;
+  }
+  
+  .type_ground {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #db5, 
+                 0 0 30px #db5, 
+                 0 0 40px #db5, 
+                 0 0 55px #db5, 
+                 0 0 70px #db5;
+  }
+  
+  .type_flying {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #89f, 
+                 0 0 30px #89f, 
+                 0 0 40px #89f, 
+                 0 0 55px #89f, 
+                 0 0 70px #89f;
+  }
+  
+  .type_psychic {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #f59, 
+                 0 0 30px #f59, 
+                 0 0 40px #f59, 
+                 0 0 55px #f59, 
+                 0 0 70px #f59;
+  }
+  
+  .type_bug {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #ab2, 
+                 0 0 30px #ab2, 
+                 0 0 40px #ab2, 
+                 0 0 55px #ab2, 
+                 0 0 70px #ab2;
+  }
+  
+  .type_rock {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #ba6, 
+                 0 0 30px #ba6, 
+                 0 0 40px #ba6, 
+                 0 0 55px #ba6, 
+                 0 0 70px #ba6;
+  }
+  
+  .type_ghost {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #66b, 
+                 0 0 30px #66b, 
+                 0 0 40px #66b, 
+                 0 0 55px #66b, 
+                 0 0 70px #66b;
+  }
+  
+  .type_dragon {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #76e, 
+                 0 0 30px #76e, 
+                 0 0 40px #76e, 
+                 0 0 55px #76e, 
+                 0 0 70px #76e;
+  }
+  
+  .type_dark {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #754, 
+                 0 0 30px #754, 
+                 0 0 40px #754, 
+                 0 0 55px #754, 
+                 0 0 70px #754;
+  }
+  
+  .type_steel {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #aab, 
+                 0 0 30px #aab, 
+                 0 0 40px #aab, 
+                 0 0 55px #aab, 
+                 0 0 70px #aab;
+  }
+  
+  .type_fairy {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px #e9e, 
+                 0 0 30px #e9e, 
+                 0 0 40px #e9e, 
+                 0 0 55px #e9e, 
+                 0 0 70px #e9e;
+  }
