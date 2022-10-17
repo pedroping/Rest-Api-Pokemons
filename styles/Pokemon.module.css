@@ -60,6 +60,7 @@
   text-decoration: none;
   color: whitesmoke;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 
 .link span {

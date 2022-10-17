@@ -31,16 +31,29 @@ export const getStaticProps = async ({params}) => {
     
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${params.Id}`);
     const data = await res.json();
-
+    const max = 251;
     return{
         props: {
+            maxPokemons: max,
             pokemon: data
         },
     }
 }
 
 
-export default function Pokemon({pokemon}){
+export default function Pokemon({pokemon, maxPokemons}){
+    const [proximo, setProximo ] = useState(pokemon.id);
+    const [url, setUrl] = useState();
+
+    const Proximo_function = function(){
+        if(pokemon.id + 1 > maxPokemons){
+            alert("Voce chegou ao fim!")
+            setUrl(`/`);
+        } else {
+          setProximo(pokemon.id + 1);
+          setUrl(`/pokemon/${proximo + 1}`);  
+        }
+    }
 
     return(
            <div className={Styles.main_container}>
@@ -76,9 +89,9 @@ export default function Pokemon({pokemon}){
                     </div>
                 </div>
                 <div>
-                <Link href={`/pokemon/${pokemon.id + 1}`}>
-                    <a className={Styles.link}>Proximo <span>Pokemon</span></a>
-                </Link>
+                    <a onClick={() => {Proximo_function()}} href={url} className={Styles.link}>
+                        Proximo <span>Pokemon</span>
+                    </a>  
                 </div>
             <div>
                 <Footer />  
